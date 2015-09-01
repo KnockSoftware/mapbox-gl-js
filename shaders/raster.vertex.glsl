@@ -3,8 +3,8 @@ uniform vec2 u_tl_parent;
 uniform float u_scale_parent;
 uniform float u_buffer_scale;
 
-attribute vec2 a_pos;
 attribute vec2 a_texture_pos;
+attribute vec2 a_pos;
 
 varying vec2 v_pos0;
 varying vec2 v_pos1;
