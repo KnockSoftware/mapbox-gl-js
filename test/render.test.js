@@ -165,6 +165,7 @@ var tests;
 if (process.argv[1] === __filename) {
     tests = process.argv.slice(2);
 }
+tests = ['raster-brightness'];
 
 fs.readdirSync(path.join(suitePath, 'tests')).forEach(function(dir) {
     if (dir === 'index.html' || dir[0] === '.') return;
